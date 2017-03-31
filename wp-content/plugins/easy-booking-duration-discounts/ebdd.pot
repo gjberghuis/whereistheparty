@@ -1,0 +1,325 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Booking : Duration Discounts\n"
+"POT-Creation-Date: 2017-01-14 12:07+0100\n"
+"PO-Revision-Date: 2017-01-14 12:07+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: easy-booking-duration-discounts-update.php:71
+msgid "Your license key is empty or invalid. "
+msgstr ""
+
+#: easy-booking-duration-discounts-update.php:72
+msgid "Save your license key"
+msgstr ""
+
+#: easy-booking-duration-discounts-update.php:73
+msgid " and "
+msgstr ""
+
+#: easy-booking-duration-discounts-update.php:74
+msgid "Recheck updates."
+msgstr ""
+
+#: easy-booking-duration-discounts.php:123
+#: includes/settings/includes/ebdd-settings.php:28
+msgid "Settings"
+msgstr ""
+
+#: includes/ebdd-functions.php:382
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/ebdd-functions.php:384
+msgid "night"
+msgid_plural "nights"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/ebdd-functions.php:384
+msgid "day"
+msgid_plural "days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/ebdd-functions.php:476
+msgid " on total"
+msgstr ""
+
+#: includes/ebdd-functions.php:596
+msgid "You need to set the discount action."
+msgstr ""
+
+#: includes/ebdd-functions.php:603
+msgid "You need to set the discount amount."
+msgstr ""
+
+#: includes/ebdd-functions.php:608
+msgid "You need to set the discount type."
+msgstr ""
+
+#: includes/ebdd-functions.php:634
+msgid "Discount start day must be inferior to discount end day."
+msgstr ""
+
+#: includes/ebdd-functions.php:643
+msgid "Discounted days can't overlap."
+msgstr ""
+
+#: includes/admin/class-ebdd-admin-product.php:89
+msgid "Apply Easy Booking: Duration Discounts pricing?"
+msgstr ""
+
+#: includes/admin/class-ebdd-admin-product.php:92
+msgid "Check to apply the product's duration discounts."
+msgstr ""
+
+#: includes/admin/views/html-ebdd-notice-license-key.php:13
+msgid ""
+"Save your license key to get automatic updates for Easy Booking : Duration "
+"Discounts."
+msgstr ""
+
+#: includes/admin/views/html-ebdd-notice-license-key.php:24
+msgid "Save"
+msgstr ""
+
+#: includes/admin/views/html-ebdd-notice-update.php:13
+msgid ""
+"This version of Easy Booking: Duration Discounts requires at least "
+"WooCommerce Easy Booking version 1.9. Please update WooCommerce Easy Booking "
+"to its latest version."
+msgstr ""
+
+#: includes/admin/views/html-ebdd-product-discounts.php:5
+#: includes/admin/views/html-ebdd-variable-product-discounts.php:5
+#: includes/settings/class-ebdd-settings.php:219
+msgid "Action"
+msgstr ""
+
+#: includes/admin/views/html-ebdd-product-discounts.php:12
+#: includes/admin/views/html-ebdd-variable-product-discounts.php:12
+#: includes/settings/class-ebdd-settings.php:204
+#: includes/settings/class-ebdd-settings.php:226
+#: includes/settings/views/html-ebdd-global-discounts.php:56
+#: includes/settings/views/html-ebdd-global-discounts.php:65
+#: includes/settings/views/html-ebdd-global-discounts.php:67
+msgid "Reduction"
+msgstr ""
+
+#: includes/admin/views/html-ebdd-product-discounts.php:13
+#: includes/admin/views/html-ebdd-variable-product-discounts.php:13
+#: includes/settings/class-ebdd-settings.php:227
+#: includes/settings/views/html-ebdd-global-discounts.php:57
+#: includes/settings/views/html-ebdd-global-discounts.php:58
+msgid "Surcharge"
+msgstr ""
+
+#: includes/admin/views/html-ebdd-product-discounts.php:20
+#: includes/admin/views/html-ebdd-variable-product-discounts.php:20
+#: includes/settings/class-ebdd-settings.php:234
+msgid "Amount"
+msgstr ""
+
+#: includes/admin/views/html-ebdd-product-discounts.php:28
+#: includes/admin/views/html-ebdd-variable-product-discounts.php:28
+#: includes/settings/class-ebdd-settings.php:242
+msgid "Discount Amount"
+msgstr ""
+
+#: includes/admin/views/html-ebdd-product-discounts.php:37
+#: includes/admin/views/html-ebdd-variable-product-discounts.php:37
+#: includes/settings/class-ebdd-settings.php:251
+msgid "Type"
+msgstr ""
+
+#: includes/admin/views/html-ebdd-product-discounts.php:38
+#: includes/admin/views/html-ebdd-variable-product-discounts.php:38
+msgid "Choose whether a percent discount or a fixed price discount."
+msgstr ""
+
+#: includes/admin/views/html-ebdd-product-discounts.php:45
+#: includes/admin/views/html-ebdd-variable-product-discounts.php:45
+#: includes/settings/class-ebdd-settings.php:258
+#: includes/settings/views/html-ebdd-global-discounts.php:56
+#: includes/settings/views/html-ebdd-global-discounts.php:57
+#: includes/settings/views/html-ebdd-global-discounts.php:58
+#: includes/settings/views/html-ebdd-global-discounts.php:65
+#: includes/settings/views/html-ebdd-global-discounts.php:67
+msgid "1 day &#37; discount"
+msgstr ""
+
+#: includes/admin/views/html-ebdd-product-discounts.php:46
+#: includes/admin/views/html-ebdd-variable-product-discounts.php:46
+#: includes/settings/class-ebdd-settings.php:259
+msgid "Total &#37; discount"
+msgstr ""
+
+#: includes/admin/views/html-ebdd-product-discounts.php:47
+#: includes/admin/views/html-ebdd-variable-product-discounts.php:47
+#: includes/settings/class-ebdd-settings.php:260
+msgid "1 day fixed discount"
+msgstr ""
+
+#: includes/admin/views/html-ebdd-product-discounts.php:48
+#: includes/admin/views/html-ebdd-variable-product-discounts.php:48
+#: includes/settings/class-ebdd-settings.php:261
+msgid "Total fixed discount"
+msgstr ""
+
+#: includes/admin/views/html-ebdd-product-discounts.php:55
+#: includes/admin/views/html-ebdd-variable-product-discounts.php:55
+msgid "From &hellip;"
+msgstr ""
+
+#: includes/admin/views/html-ebdd-product-discounts.php:55
+#: includes/admin/views/html-ebdd-product-discounts.php:73
+#: includes/admin/views/html-ebdd-variable-product-discounts.php:55
+#: includes/admin/views/html-ebdd-variable-product-discounts.php:73
+msgid "days"
+msgstr ""
+
+#: includes/admin/views/html-ebdd-product-discounts.php:56
+#: includes/admin/views/html-ebdd-variable-product-discounts.php:56
+msgid ""
+"Day/week/custom period to start discount. Leave 0 or empty to start at first "
+"day/week/custom period."
+msgstr ""
+
+#: includes/admin/views/html-ebdd-product-discounts.php:64
+#: includes/admin/views/html-ebdd-variable-product-discounts.php:64
+#: includes/settings/class-ebdd-settings.php:277
+msgid "From &hellip; day(s)"
+msgstr ""
+
+#: includes/admin/views/html-ebdd-product-discounts.php:73
+#: includes/admin/views/html-ebdd-variable-product-discounts.php:73
+msgid "To &hellip;"
+msgstr ""
+
+#: includes/admin/views/html-ebdd-product-discounts.php:74
+#: includes/admin/views/html-ebdd-variable-product-discounts.php:74
+msgid ""
+"Day/week/custom period to end discount. Leave 0 or empty to set no "
+"limitation."
+msgstr ""
+
+#: includes/admin/views/html-ebdd-product-discounts.php:82
+#: includes/admin/views/html-ebdd-variable-product-discounts.php:82
+#: includes/settings/class-ebdd-settings.php:295
+msgid "To &hellip; day(s)"
+msgstr ""
+
+#: includes/admin/views/html-ebdd-product-discounts.php:96
+#: includes/admin/views/html-ebdd-variable-product-discounts.php:95
+msgid "Duration discounts or surcharges"
+msgstr ""
+
+#: includes/settings/class-ebdd-settings.php:155
+#: includes/settings/class-ebdd-settings.php:328
+msgid "Enter your license key"
+msgstr ""
+
+#: includes/settings/class-ebdd-settings.php:171
+msgid ""
+"Choose whether to cumulate discounts when calculating price, or apply only "
+"the one corresponding to the selected duration."
+msgstr ""
+
+#: includes/settings/class-ebdd-settings.php:173
+msgid "Normal"
+msgstr ""
+
+#: includes/settings/class-ebdd-settings.php:174
+msgid "Cumulative"
+msgstr ""
+
+#: includes/settings/class-ebdd-settings.php:187
+msgid "Display duration discounts on the product page."
+msgstr ""
+
+#: includes/settings/class-ebdd-settings.php:202
+#, php-format
+msgid ""
+"Choose to display either the reduction applied, or the discounted price (for "
+"single product discounts only). E.g for a 10&euro; product : -10% or 9&euro;."
+msgstr ""
+
+#: includes/settings/class-ebdd-settings.php:205
+msgid "Price"
+msgstr ""
+
+#: includes/settings/class-ebdd-settings.php:268
+msgid "From &hellip; "
+msgstr ""
+
+#: includes/settings/class-ebdd-settings.php:269
+#: includes/settings/class-ebdd-settings.php:287
+msgid ""
+"Day(s), week(s) or custom booking period(s). It depends on the global and / "
+"or product settings."
+msgstr ""
+
+#: includes/settings/class-ebdd-settings.php:286
+msgid "To &hellip; "
+msgstr ""
+
+#: includes/settings/includes/ebdd-network-settings.php:9
+#: includes/settings/views/html-ebdd-settings.php:3
+msgid "Easy Booking : Duration Discounts Settings"
+msgstr ""
+
+#: includes/settings/includes/ebdd-network-settings.php:16
+#: includes/settings/includes/ebdd-settings.php:18
+msgid "License Key"
+msgstr ""
+
+#: includes/settings/includes/ebdd-settings.php:35
+msgid "Discounts mode"
+msgstr ""
+
+#: includes/settings/includes/ebdd-settings.php:43
+msgid "Display discounts?"
+msgstr ""
+
+#: includes/settings/includes/ebdd-settings.php:51
+msgid "Display mode"
+msgstr ""
+
+#: includes/settings/includes/ebdd-settings.php:59
+#: includes/settings/views/html-ebdd-global-discounts.php:43
+msgid "Global discounts"
+msgstr ""
+
+#: includes/settings/views/html-ebdd-global-discounts.php:31
+msgid ""
+"These discounts will be applied to all your products. They will be overriden "
+"by any overlapping discount set on each product. E.g:"
+msgstr ""
+
+#: includes/settings/views/html-ebdd-global-discounts.php:44
+msgid "Product discount"
+msgstr ""
+
+#: includes/settings/views/html-ebdd-global-discounts.php:45
+msgid "Applied discounts"
+msgstr ""
+
+#: includes/settings/views/html-ebdd-global-discounts.php:55
+msgid "Discount #1"
+msgstr ""
+
+#: includes/settings/views/html-ebdd-global-discounts.php:64
+msgid "Discount #2"
+msgstr ""

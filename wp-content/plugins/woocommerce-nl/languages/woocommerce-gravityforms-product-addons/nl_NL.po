@@ -1,0 +1,131 @@
+# Translation of 2.4.2 in Dutch
+# This file is distributed under the same license as the 2.4.2 package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-06-12 07:57:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: 2.4.2\n"
+
+#: gravityforms-product-addons-form.php:35 gravityforms-product-addons.php:228
+msgid "Subtotal"
+msgstr "Subtotaal"
+
+#: gravityforms-product-addons-form.php:36 gravityforms-product-addons.php:237
+msgid "Options"
+msgstr "Opties"
+
+#: gravityforms-product-addons-form.php:37 gravityforms-product-addons.php:246
+msgid "Total"
+msgstr "Totaal"
+
+#: gravityforms-product-addons.php:104
+msgid "Select options"
+msgstr "Selecteer opties"
+
+#: gravityforms-product-addons.php:130
+msgid "Gravity Forms Product Add-Ons"
+msgstr "Gravity Forms product add-ons"
+
+#: gravityforms-product-addons.php:148
+msgid "General"
+msgstr "Algemeen"
+
+#: gravityforms-product-addons.php:164
+msgid "Choose Form"
+msgstr "Kies formulier"
+
+#: gravityforms-product-addons.php:166
+msgid "None"
+msgstr "Geen"
+
+#: gravityforms-product-addons.php:177
+msgid "Display Title"
+msgstr "Toon titel"
+
+#: gravityforms-product-addons.php:182
+msgid "Display Description"
+msgstr "Toon beschrijving"
+
+#: gravityforms-product-addons.php:194
+msgid "Price Labels"
+msgstr "Prijs labels"
+
+#: gravityforms-product-addons.php:199
+msgid "Remove WooCommerce Price?"
+msgstr "Verwijder WooCommerce prijs?"
+
+#: gravityforms-product-addons.php:202
+msgid "Price Before"
+msgstr "Prijs voor"
+
+#: gravityforms-product-addons.php:204
+msgid "Base Price:"
+msgstr "Basis prijs:"
+
+#: gravityforms-product-addons.php:204
+msgid "Enter text you would like printed before the price of the product."
+msgstr "Voer de tekst in die u wilt tonen voor de prijs van het product."
+
+#: gravityforms-product-addons.php:206
+msgid "Price After"
+msgstr "Prijs achter"
+
+#: gravityforms-product-addons.php:208
+msgid "Enter text you would like printed after the price of the product."
+msgstr "Voer de tekst in die u wilt tonen achter de prijs van het product."
+
+#: gravityforms-product-addons.php:213
+msgid "Total Calculations"
+msgstr "Totaal berekeningen"
+
+#: gravityforms-product-addons.php:218
+msgid "Disable Calculations?"
+msgstr "Berekeningen uitschakelen?"
+
+#: gravityforms-product-addons.php:223
+msgid "Disable Subtotal?"
+msgstr "Subtotaal uitschakelen?"
+
+#: gravityforms-product-addons.php:226
+msgid "Subtotal Label"
+msgstr "Subtotaal label"
+
+#: gravityforms-product-addons.php:228
+msgid "Enter \"Subtotal\" label to display on for single products."
+msgstr "Voer \"Subtotaal\" label in om te tonen voor losse producten."
+
+#: gravityforms-product-addons.php:232
+msgid "Disable Options Label?"
+msgstr "Opties label uitschakelen?"
+
+#: gravityforms-product-addons.php:235
+msgid "Options Label"
+msgstr "Opties label"
+
+#: gravityforms-product-addons.php:237
+msgid "Enter the \"Options\" label to display for single products."
+msgstr "Voer de \"Opties\" label in om te tonen voor losse producten."
+
+#: gravityforms-product-addons.php:241
+msgid "Disable Total Label?"
+msgstr "Totaal label uitschakelen?"
+
+#: gravityforms-product-addons.php:244
+msgid "Total Label"
+msgstr "Totaal label"
+
+#: gravityforms-product-addons.php:246
+msgid "Enter the \"Total\" label to display for single products."
+msgstr "Voer de \"Totaal\" label in om te tonen voor losse producten."
+
+#: gravityforms-product-addons.php:268
+msgid "You must set a price for the product before the gravity form will be visible.  Set the price to 0 if you are performing all price calculations with the attached Gravity Form."
+msgstr ""
+
+#: gravityforms-product-addons.php:550
+msgid " is invalid.  Please remove and try readding to the cart"
+msgstr "is ongevlig. Verwijder en probeer opnieuw toe te voegen aan de winkelwagen."

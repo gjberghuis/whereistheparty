@@ -1,0 +1,51 @@
+.ebdd-discounts .widefat > thead th, .ebdd-discounts .widefat > tfoot th {
+	padding: 10px 20px;
+}
+
+.delete-discount {
+	display: block;
+  	text-indent: -9999px;
+  	position: relative;
+  	height: 1em;
+  	width: 1em;
+  	margin: auto;
+}
+
+.delete-discount:before {
+	font-family: WooCommerce;
+	speak: none;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+	text-indent: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	content: "";
+	content: "\e013";
+	color: #999;
+}
+
+.ebdd-discounts {
+	margin: 1em 0;
+}
+
+.description_table {
+	margin-top: 1em;
+	font-style: italic;
+}
+
+.description_table th, .description_table td {
+	width: auto;
+	padding: 0.25em 1em;
+}
+
+.description_table tbody th {
+	padding: 0.25em 0;
+}
