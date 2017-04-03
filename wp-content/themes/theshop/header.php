@@ -29,12 +29,12 @@
 	
 	<header id="masthead" class="site-header clearfix" role="banner">
 		<div class="container">
-			<div class="site-branding col-md-6">
-				<img src="http://localhost/hierisdatfeestje/wp-content/uploads/headerlogo.png" style="
+			<div class="site-branding col-md-4">
+				<img src="https://hierisdatfeestje.com/wp-content/uploads/2017/03/logowebsite_03.png" style="
     width: 400px;
 ">
 			</div>
-			<nav id="site-navigation" class="main-navigation col-md-6" role="navigation">
+			<nav id="site-navigation" class="main-navigation col-md-8" role="navigation">
 				<?php wp_nav_menu( array( 'theme_location' => 'third', 'menu_id' => 'third-menu' ) ); ?>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 			</nav><!-- #site-navigation -->
