@@ -31,7 +31,7 @@ if (!function_exists('theshop_products_section')) :
 
                 <?php endif; ?>
                 <div class="inner-section">
-                    <?php echo do_shortcode('[recent_products per_page="' . intval($number) . '" columns="3"]'); ?>
+                    <?php echo do_shortcode('[featured_products per_page="' . intval($number) . '" columns="3"]'); ?>
                 </div>
             </div>
         </section>
