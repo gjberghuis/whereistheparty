@@ -19,6 +19,8 @@ if ( !theshop_woocommerce_active() )
 add_action( 'after_setup_theme', 'theshop_woocommerce_support' );
 function theshop_woocommerce_support() {
     add_theme_support( 'woocommerce' );
+    add_theme_support( 'wc-product-gallery-lightbox' );
+    add_theme_support( 'wc-product-gallery-slider' );    
 }
 
 /**
@@ -44,7 +46,7 @@ add_action( 'wp_enqueue_scripts', 'theshop_woocommerce_css', 9 );
 function theshop_header_add_to_cart_fragment( $fragments ) {
 	ob_start();
 	?>
-	<a class="cart-contents" href="<?php echo WC()->cart->get_cart_url(); ?>" title="<?php _e( 'Bekijk je reservering', 'theshop' ); ?>"><?php echo sprintf (_n( '%d artikel', '%d artikelen', WC()->cart->cart_contents_count, 'theshop' ), WC()->cart->cart_contents_count ); ?> - <?php echo WC()->cart->get_cart_total(); ?></a>
+	<a class="cart-contents" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart', 'theshop' ); ?>"><?php echo sprintf (_n( '%d item', '%d items', WC()->cart->cart_contents_count, 'theshop' ), WC()->cart->cart_contents_count ); ?> - <?php echo WC()->cart->get_cart_total(); ?></a> 
 	<?php
 	
 	$fragments['a.cart-contents'] = ob_get_clean();
@@ -58,7 +60,7 @@ add_filter( 'woocommerce_add_to_cart_fragments', 'theshop_header_add_to_cart_fra
  */
 function theshop_nav_cart ( $items, $args ) {
     if ( $args->theme_location == 'primary' ) {
-		$items .= '<li class="nav-cart"><i class="fa fa-shopping-cart"></i><a class="cart-contents" href="' . WC()->cart->get_cart_url() . '" title="' . __( 'Bekijk je reservering', 'theshop' ) . '">' . sprintf (_n( '%d artikel', '%d artikelen', WC()->cart->cart_contents_count, 'theshop' ), WC()->cart->cart_contents_count ) . '-' . WC()->cart->get_cart_total() . '</a></li>';
+		$items .= '<li class="nav-cart"><i class="fa fa-shopping-cart"></i><a class="cart-contents" href="' . wc_get_cart_url() . '" title="' . __( 'View your shopping cart', 'theshop' ) . '">' . sprintf (_n( '%d item', '%d items', WC()->cart->cart_contents_count, 'theshop' ), WC()->cart->cart_contents_count ) . '-' . WC()->cart->get_cart_total() . '</a></li>';
     }
     return $items;
 }

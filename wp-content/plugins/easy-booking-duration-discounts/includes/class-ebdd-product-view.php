@@ -15,7 +15,7 @@ class EBDD_Product_View {
 	//	add_action( 'woocommerce_single_product_summary', array( $this, 'ebdd_display_discounts' ), 15 );
         add_action( 'woocommerce_bundled_item_details', array( $this, 'ebdd_display_discounts' ), 28, 2 );
         add_filter( 'woocommerce_get_price_html', array( $this, 'ebdd_display_grouped_discounts' ), 20, 2 );
-     //   add_filter( 'easy_booking_display_average_price', array( $this, 'ebdd_display_average_price' ), 10, 2 );
+        //add_filter( 'easy_booking_display_average_price', array( $this, 'ebdd_display_average_price' ), 10, 2 );
 	}
 
     /**

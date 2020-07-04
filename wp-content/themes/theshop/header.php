@@ -13,7 +13,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans|Paytone+One" rel="stylesheet">
+
 <?php wp_head(); ?>
 </head>
 
@@ -30,25 +30,29 @@
 	<header id="masthead" class="site-header clearfix" role="banner">
 		<div class="container">
 			<div class="site-branding col-md-4">
-				<img src="https://hierisdatfeestje.com/wp-content/uploads/2017/03/logowebsite_03.png" style="
-    width: 400px;
-">
-			</div>
+				<?php theshop_branding(); ?>
+			</div><!-- .site-branding -->
+
 			<nav id="site-navigation" class="main-navigation col-md-8" role="navigation">
-				<?php wp_nav_menu( array( 'theme_location' => 'third', 'menu_id' => 'third-menu' ) ); ?>
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 			</nav><!-- #site-navigation -->
 			<nav class="mobile-nav"></nav>
 		</div>
 	</header><!-- #masthead -->
 	
-
+	<?php if ( !is_home() ) : ?>
+	<div class="header-promo">
+		<div class="container">
+			<?php theshop_top_promo(); ?>
+		</div>
+	</div>	
+	<?php endif; ?>	
 
 	<?php
 	$header_front = get_theme_mod('header_active_front', 'full');
 	$header_site = get_theme_mod('header_active_site', 'top-bar');
 	?>
-	<!--<?php if ( !is_home() && (is_front_page() && $header_front == 'full') || (!is_front_page() && $header_site == 'full') ) : ?>
+	<?php if ( !is_home() && (is_front_page() && $header_front == 'full') || (!is_front_page() && $header_site == 'full') ) : ?>
 	<div class="hero-section clearfix">
 		<?php if (!get_theme_mod('side_menu')) : ?>
 		<nav id="secondary-nav" class="secondary-navigation" role="navigation">
@@ -61,15 +65,7 @@
 		</div>
 	</div>
 	<?php endif; ?>
--->
-	<?php if ( !is_home() ) : ?>
-	<div class="header-promo">
-		<div class="container">
-			<?php theshop_top_promo(); ?>
-		</div>
-	</div>	
-	<?php endif; ?>	
-	
+
 	<div id="content" class="site-content">
 	<?php if ( !is_page_template('page-templates/page_front-page.php') ) : ?>
 	<div class="container content-wrapper">

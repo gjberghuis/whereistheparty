@@ -53,7 +53,6 @@ function theshop_setup() {
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary Menu', 'theshop' ),
 		'secondary' => esc_html__( 'Side menu', 'theshop' ),
-		'third' => esc_html__( 'Cart menu', 'theshop' ),
 	) );
 
 	/*
@@ -142,7 +141,7 @@ function theshop_scripts() {
 
 	wp_enqueue_script( 'theshop-unslider', get_template_directory_uri() . '/js/main.min.js', array('jquery'), '', true );	
 
-	wp_enqueue_script( 'theshop-scripts', get_template_directory_uri() . '/js/scripts.min.js', array('jquery'), '', true );
+	wp_enqueue_script( 'theshop-scripts', get_template_directory_uri() . '/js/scripts.min.js', array('jquery'), '20171219', true );
 
 }
 add_action( 'wp_enqueue_scripts', 'theshop_scripts' );
@@ -215,7 +214,7 @@ function theshop_footer_credits() {
 		printf( __( 'Proudly powered by %s', 'theshop' ), 'WordPress' );
 	echo '</a>';
 	echo '<span class="sep"> | </span>';
-	printf( __( 'Theme: %2$s by %1$s.', 'theshop' ), 'aThemes', '<a href="http://athemes.com/theme/theshop" rel="designer">TheShop</a>' );
+	printf( __( 'Theme: %2$s by %1$s.', 'theshop' ), 'aThemes', '<a href="http://athemes.com/theme/theshop" rel="nofollow">TheShop</a>' );
 }
 add_action( 'theshop_footer', 'theshop_footer_credits' );
 

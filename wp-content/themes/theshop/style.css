@@ -4,11 +4,11 @@ Theme URI: http://athemes.com/theme/theshop
 Author: aThemes
 Author URI: http://athemes.com
 Description: TheShop is a very easy to use e-commerce theme, compatible with the popular WooCommerce plugin. TheShop includes a custom front page, fonts and color options, two menus, a slider for your header and much more. 
-Version: 1.04
+Version: 1.11
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: theshop
-Tags: light, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-colors, custom-background, custom-header, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+Tags: e-commerce, two-columns, right-sidebar, custom-colors, custom-background, custom-header, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -16,6 +16,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 TheShop is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 */
+
 
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -31,9 +32,8 @@ h4,
 h5,
 h6 {
 	color: #1c1c1c;
-	
-font-family: 'Paytone One', sans-serif;
-	font-weight: 400;
+	font-family: 'Paytone One', sans-serif;
+    font-weight: 400;
 }
 a,
 a:hover {
@@ -217,9 +217,8 @@ a:active {
 	display: inline-block;
 	position: relative;
 	padding: 10px 15px;
-	font-size: 25px;
-	
-font-family: 'Paytone One', sans-serif;
+    font-size: 25px;
+	font-family: 'Paytone One', sans-serif;
 	font-weight: 300;
 }
 
@@ -316,7 +315,6 @@ font-family: 'Paytone One', sans-serif;
 .main-navigation .current_page_ancestor > a {
 	color: #3fb8af;
 }
-
 
 /* Secondary nav */
 .secondary-navigation a,
@@ -465,7 +463,7 @@ font-family: 'Paytone One', sans-serif;
 }
 
 .inner-section .blog-post .post-title a{
-	color: #3fb8af !important;
+    color: #3fb8af !important;
 }
 
 .post-navigation a,
@@ -899,9 +897,7 @@ img {
 	background-color: #f3f3f3;
 	padding: 30px 0;
 }
-img.balons {
-		margin-bottom: 5px;
-	} 
+
 .site-title {
 	margin: 0;
 }
@@ -923,15 +919,15 @@ img.balons {
 	display: flex;
 	align-items: center;	
 }
-.site-branding img.balons {
+.site-branding {
 	padding-left: 0;
 }
-.main-navigation img.logo {
+.main-navigation {
 	padding-right: 0;
 }
 
 /* Header contact */
-.header-promo {
+.header-promo {    
 	background-color: #FF9E9D;
 	text-align: center;
 	border-bottom: 1px solid #f1f1f1;
@@ -949,9 +945,8 @@ img.balons {
 	display: block;
 }
 .promo-box span {
-
-font-family: 'Paytone One', sans-serif;
-	font-size: 28px;
+	font-family: 'Paytone One', sans-serif;
+    font-size: 28px;
 	position: relative;
     top: 3px;
 }
@@ -1034,6 +1029,7 @@ li.nav-cart {
 .page-template-page_front-page {
 	background-color: #fff;
 }
+.page-template-page_fullwidth .content-area,
 .fullwidth,
 .fullwidth-single .content-area {
 	width: 100%;
@@ -1135,7 +1131,7 @@ li.nav-cart {
     left: 0;
     background-color: rgba(0, 0, 0, 0.6);
 }
-.cats-loop .woocommerce .product.product-category h3 {
+.cats-loop .woocommerce .product.product-category .woocommerce-loop-category__title {
 	position: absolute;
 	top: 40%;
 	width: 100%;
@@ -1236,7 +1232,6 @@ li.nav-cart {
 		padding: 0 15px;
 		text-align: center;
 	}
-	
 	.mobile-nav .slicknav_menu {
 		text-align: center;
 		margin-top: 15px;
@@ -1252,7 +1247,7 @@ li.nav-cart {
 		font-size: 18px;
 	}
 	.promo-box span {
-		font-size: 20px;
+        font-size: 20px;
 	}
 	.home-section .container {
 		display: block;
@@ -1331,7 +1326,17 @@ li.nav-cart {
 		font-size: 14px !important;
 	}
 }
+@media (min-width: 769px) and (max-width: 1199px) {
+    body.woocommerce-cart div.cross-sells ul.products li.product {
+        width: 100% !important;
+    }
+}
 
+@media (min-width: 1200px) {
+    body.woocommerce-cart div.cross-sells ul.products li.product {
+        width: 48% !important;
+    }
+}
 
 
 /* 
@@ -1482,5 +1487,5 @@ li.nav-cart {
 
 /* CUSTOM */
 .summary .product_meta .tagged_as {
-	display: none;
+    display: none;
 }

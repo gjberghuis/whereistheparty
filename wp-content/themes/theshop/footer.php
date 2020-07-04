@@ -14,8 +14,6 @@
 	<?php if ( is_active_sidebar( 'footer-1' ) ) : ?>
 		<?php get_sidebar('footer'); ?>
 	<?php endif; ?>
-
-
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
